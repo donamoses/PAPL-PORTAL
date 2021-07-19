@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "af0712f7-074a-4ec8-9334-1a9c7ba2dbf1",
+  "alias": "AnniversaryWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Anniversary" },
+    "description": { "default": "Anniversary description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Anniversary"
+    }
+  }]
+}

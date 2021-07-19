@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mrbutlers.sharepoint.com/sites/MyPeople/Lists/Employees/ExEmployees.aspx",
+      "customActions": {
+        "59061dce-76a7-4cc4-871a-dfd94f4e2fd6": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list"
+          }
+        }
+      }
+    },
+    "revive": {
+      "pageUrl": "https://mrbutlers.sharepoint.com/sites/MyPeople/Lists/Employees/ExEmployees.aspx",
+      "customActions": {
+        "59061dce-76a7-4cc4-871a-dfd94f4e2fd6": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list"
+          }
+        }
+      }
+    }
+  }
+}

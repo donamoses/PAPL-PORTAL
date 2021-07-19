@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "recently-joined-employee-wp-client-side-solution",
+    "id": "01f4d521-a293-4597-be63-01b7df385cd9",
+    "version": "3.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/recently-joined-employee-wp.sppkg"
+  }
+}

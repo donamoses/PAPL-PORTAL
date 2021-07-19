@@ -1,0 +1,22 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.recentlyJoinedEmployee {
+  .webPartTitle {
+    margin-bottom: 1em;
+  }
+  .joined {
+    @include ms-font-xl;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 16px 0;
+  }
+
+  :global .ms-Spinner {
+    width: 7em;
+    margin: 0 auto;
+  }
+
+  :global .ms-Persona {
+    cursor: pointer;
+  }
+}

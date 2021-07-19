@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "organizationalchart-webpart-client-side-solution",
+    "id": "1c9803bb-e4c9-4c38-be9b-820bcc93a17e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/organizationalchart-webpart.sppkg"
+  }
+}

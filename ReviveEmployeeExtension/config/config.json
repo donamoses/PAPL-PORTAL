@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "revive-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/revive/ReviveCommandSet.js",
+          "manifest": "./src/extensions/revive/ReviveCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReviveCommandSetStrings": "lib/extensions/revive/loc/{locale}.js"
+  }
+}

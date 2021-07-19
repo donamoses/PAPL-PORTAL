@@ -1,0 +1,16 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+
+.carouselBtn {
+  background: #D3D3D3;
+  padding:10px;
+  border-radius: 50%;
+  left: 3px;
+ }
+ .carouselBtnright {
+  background: #D3D3D3;
+  padding:10px;
+  border-radius: 50%;
+  left: -35px !important;
+ }
+

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactCarousel/ReactCarouselWebPart.js",
+          "manifest": "./src/webparts/reactCarousel/ReactCarouselWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactCarouselWebPartStrings": "lib/webparts/reactCarousel/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
